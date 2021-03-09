@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource 
+		name="jdbc/readerapp" 
+		auth="Container"
+        type="javax.sql.DataSource" 
+        driverClassName="com.mysql.jdbc.Driver"
+        loginTimeout="10"
+        maxWait="5000"
+        username="root"
+        password="1111"
+        url="jdbc:mysql://127.0.0.1:3306/readerapp"
+/>
+</Context>
